@@ -1,0 +1,119 @@
+{
+    "options": {
+        "name": "Soartex Fanver 1.3.x-pre",
+        "url": "http://soartex.net/",
+        "packurl": "http://files.soartex.net/archives/MC%201.3.x-pre/Soartex_Fanver.zip",
+        "zipsurl": "http://files.soartex.net/modded-textures/modded_1.3.x/",
+        "iconurl": "http://soartex.net/texture-patcher/data/icon.png",
+        "skin": "Nimbus"
+    },
+    "mods": {
+        "Aether": {
+            "version": "1.04_01",
+            "mcversion": "1.0.0"
+        },
+        "Crafting Table 3": {
+            "version": "B1.8",
+            "mcversion": "1.3.2"
+        },
+        "Equal Exchange 2": {
+            "version": "1.4.6.7",
+            "mcversion": "1.2.5"
+        },
+        "Experience Bottler": {
+            "version": "1.1",
+            "mcversion": "1.2.5"
+        },
+        "Freerunners Mod": {
+            "version": "4",
+            "mcversion": "1.3.1"
+        },
+        "Furniture Jammy": {
+            "version": "4.3",
+            "mcversion": "1.3.2"
+        },
+        "Furniture MrCrayfish": {
+            "version": "1.2.5",
+            "mcversion": "1.2.5"
+        },
+        "GLSL Bumpmapping": {
+            "version": "2.1.0",
+            "mcversion": "1.3.1"
+        },
+        "Laser Mod": {
+            "version": "1.5",
+            "mcversion": "1.2.5"
+        },
+        "Minions": {
+            "version": "1.3.9",
+            "mcversion": "1.3.2"
+        },
+        "New Natural Materials": {
+            "version": "1.2.5.1.4",
+            "mcversion": "1.2.5"
+        },
+        "Orizon": {
+            "version": "1.0.6",
+            "mcversion": "1.2.5"
+        },
+        "Pams Combined Mods": {
+            "version": "1.1",
+            "mcversion": "1.3.2"
+        },
+        "Parachute Mod": {
+            "version": "0",
+            "mcversion": "1.3.2"
+        },
+        "PlasmaCraft": {
+            "version": "0.1.6",
+            "mcversion": "1.3.1"
+        },
+        "PlasticCraft": {
+            "version": "3.0.2",
+            "mcversion": "1.3.2"
+        },
+        "Portable Workbench": {
+            "version": "1.3.2",
+            "mcversion": "1.3.2"
+        },
+        "PowerCraft": {
+            "version": "3.4.9",
+            "mcversion": "1.2.5"
+        },
+        "Redpower Auto Crafting Table": {
+            "version": "1.1",
+            "mcversion": "1.2.5"
+        },
+        "Rocket Science": {
+            "version": "0.89 (IC2)",
+            "mcversion": "1.2.5"
+        },
+        "Runic Dust": {
+            "version": "0.6.1",
+            "mcversion": "1.2.5"
+        },
+        "TerrafirmaCraft": {
+            "version": "Outdated",
+            "mcversion": "Unknown"
+        },
+        "Thaumcraft 2": {
+            "version": "2.1.6d",
+            "mcversion": "1.2.5"
+        },
+        "Tomes and XP Book": {
+            "version": "V6",
+            "mcversion": "1.2.5"
+        },
+        "Whats My Light Level": {
+            "version": "Stable33",
+            "mcversion": "1.3.2"
+        },
+        "Xtra Blocks": {
+            "version": "Outdated",
+            "mcversion": "Unknown"
+        }
+    },
+    "modpacks": {
+        "FTB Ultimate": "http://soartex.net/texture-patcher/data/modpacks/ftbultimate.txt"
+    }
+}

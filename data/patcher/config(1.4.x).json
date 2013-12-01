@@ -1,0 +1,345 @@
+{
+    "options": {
+        "name": "Soartex Fanver 1.4.x",
+        "url": "http:\/\/soartex.net\/",
+        "packurl": "http:\/\/files.soartex.net\/archives\/MC%201.4.x\/Soartex_Fanver.zip",
+        "zipsurl": "http://files.soartex.net/modded-textures/modded_1.4.x/",
+        "iconurl": "http:\/\/soartex.net\/texture-patcher\/data\/icon.png",
+        "skin": "Nimbus"
+    },
+    "mods": {
+        "Additional Pipes": {
+            "version": "3.2.1 (BC3)",
+            "mcversion": "1.4.7"
+        },
+        "Advanced Generators": {
+            "version": "3.3.0",
+            "mcversion": "1.4.7"
+        },
+        "Advanced Machines Atomic": {
+            "version": "4.7 (IC2)",
+            "mcversion": "1.4.7"
+        },
+        "Advanced Machines Snyke": {
+            "version": "1.5 (IC2)",
+            "mcversion": "1.4.7"
+        },
+        "Advanced Solars": {
+            "version": "3.3.4",
+            "mcversion": "1.4.7"
+        },
+        "Applied Energistics": {
+            "version": "9.f",
+            "mcversion": "1.4.7"
+        },
+        "Astral Craft": {
+            "version": "1.0.07pr2",
+            "mcversion": "1.4.7"
+        },
+        "Backpack Mod": {
+            "version": "1.5.7",
+            "mcversion": "1.4.7"
+        },
+        "Better than Wolves": {
+            "version": "4.4",
+            "mcversion": "1.4.7"
+        },
+        "BiblioCraft": {
+            "version": "1.1.0",
+            "mcversion": "1.4.7"
+        },
+        "Biomes O Plenty": {
+            "version": "0.4.0",
+            "mcversion": "1.4.7"
+        },
+        "Buildcraft 3": {
+            "version": "3.4.3",
+            "mcversion": "1.4.7"
+        },
+        "ChickenChunks": {
+            "version": "1.2.1.0",
+            "mcversion": "1.4.7"
+        },
+        "Compact Solar Arrays": {
+            "version": "4.0 (IC2)",
+            "mcversion": "1.4.7"
+        },
+        "ComputerCraft": {
+            "version": "1.48",
+            "mcversion": "1.4.7"
+        },
+        "Dimensional Anchor": {
+            "version": "50.1.0",
+            "mcversion": "1.4.7"
+        },
+        "Divine RPG": {
+            "version": "1.0.3.4",
+            "mcversion": "1.4.7"
+        },
+        "Doggy Talents": {
+            "version": "2.2.3",
+            "mcversion": "1.4.7"
+        },
+        "Dragon Mounts": {
+            "version": "0.9",
+            "mcversion": "1.4.2"
+        },
+        "Easy Crafting": {
+            "version": "1.1.2",
+            "mcversion": "1.4.7"
+        },
+        "EightBit Records": {
+            "version": "1.0.3",
+            "mcversion": "1.4.7"
+        },
+        "Elemental Arrows": {
+            "version": "1.4.7",
+            "mcversion": "1.4.7"
+        },
+        "Elemental Creepers": {
+            "version": "2",
+            "mcversion": "1.4.7"
+        },
+        "Ender Storage": {
+            "version": "1.4.1.2",
+            "mcversion": "1.4.7"
+        },
+        "Enhanced Books": {
+            "version": "1.4.1",
+            "mcversion": "1.4.7"
+        },
+        "Equal Exchange 3": {
+            "version": "Pre1f",
+            "mcversion": "1.4.7"
+        },
+        "Extra Bees": {
+            "version": "1.5.0.2",
+            "mcversion": "1.4.7"
+        },
+        "Extra Biomes": {
+            "version": "3.11.0",
+            "mcversion": "1.4.7"
+        },
+        "Factorization": {
+            "version": "0.7.21",
+            "mcversion": "1.4.7"
+        },
+        "Forestry": {
+            "version": "2.0.0.11",
+            "mcversion": "1.4.7"
+        },
+        "Gravity Suite": {
+            "version": "1.8",
+            "mcversion": "1.4.7"
+        },
+        "GregTech": {
+            "version": "2.90h",
+            "mcversion": "1.4.6"
+        },
+        "Gregs Lights": {
+            "version": "1.4",
+            "mcversion": "1.4.7"
+        },
+        "Herobrine": {
+            "version": 2.85,
+            "mcversion": "1.4.7"
+        },
+        "IndustrialCraft 2": {
+            "version": "1.115",
+            "mcversion": "1.4.7"
+        },
+        "Inventory Tweaks": {
+            "version": "Always Compatible",
+            "mcversion": "1.4.7"
+        },
+        "Iron Chests": {
+            "version": "5.0.4.1",
+            "mcversion": "1.4.7"
+        },
+        "Light Level Overlay": {
+            "version": "0.9",
+            "mcversion": "1.4.7"
+        },
+        "Liquid Metals": {
+            "version": "0.1.16",
+            "mcversion": "1.4.7"
+        },
+        "Logistics Pipes": {
+            "version": "0.7.0.77 (Unofficial)",
+            "mcversion": "1.4.7"
+        },
+        "MFFS": {
+            "version": "2.2.8.2.13 (IC2)",
+            "mcversion": "1.4.7"
+        },
+        "MagiCats": {
+            "version": "1.2.4",
+            "mcversion": "1.4.5"
+        },
+        "Magic Yarn": {
+            "version": "1.4.7",
+            "mcversion": "1.4.7"
+        },
+        "Millenaire": {
+            "version": "2.7.8",
+            "mcversion": "1.4.5"
+        },
+        "Minefactory Reloaded": {
+            "version": "2.3.2",
+            "mcversion": "1.4.7"
+        },
+        "Misc Peripherals": {
+            "version": "3.1b",
+            "mcversion": "1.4.7"
+        },
+        "Mo Creatures": {
+            "version": "4.5.0",
+            "mcversion": "1.4.7"
+        },
+        "More Furnaces": {
+            "version": "1.2.3",
+            "mcversion": "1.4.7"
+        },
+        "More Health": {
+            "version": "3.0",
+            "mcversion": "1.4.7"
+        },
+        "More Pistons": {
+            "version": "1.2.4",
+            "mcversion": "1.4.7"
+        },
+        "Mystcraft": {
+            "version": "0.10.0",
+            "mcversion": "1.4.7"
+        },
+        "Nether Ores": {
+            "version": "2.0.4",
+            "mcversion": "1.4.7"
+        },
+        "Not Enough Items": {
+            "version": "1.4.7.0",
+            "mcversion": "1.4.7"
+        },
+        "Nuclear Control": {
+            "version": "1.4.7",
+            "mcversion": "1.4.7"
+        },
+        "Omni Tools": {
+            "version": "3.0.4",
+            "mcversion": "1.4.7"
+        },
+        "Pet Bats": {
+            "version": "1.1.0",
+            "mcversion": "1.4.5"
+        },
+        "Petroleum Generator": {
+            "version": "1.2",
+            "mcversion": "1.4.7"
+        },
+        "Power Converters": {
+            "version": "2.2.1",
+            "mcversion": "1.4.7"
+        },
+        "Primitive Mobs": {
+            "version": "1.2.2a",
+            "mcversion": "1.4.7"
+        },
+        "Railcraft": {
+            "version": "6.17.0",
+            "mcversion": "1.4.7"
+        },
+        "Redpower 2": {
+            "version": "Pre6",
+            "mcversion": "1.4.7"
+        },
+        "Secret Rooms": {
+            "version": 4.5,
+            "mcversion": "1.4.7"
+        },
+        "Soul Shards": {
+            "version": "1.26",
+            "mcversion": "1.4.7"
+        },
+        "Spawner GUI": {
+            "version": "1.4.5",
+            "mcversion": "1.4.7"
+        },
+        "Steves Carts": {
+            "version": "a62",
+            "mcversion": "1.4.7"
+        },
+        "Sword Pedestals": {
+            "version": "1.1.1",
+            "mcversion": "1.4.7"
+        },
+        "Thaumcraft 3": {
+            "version": "3.03",
+            "mcversion": "1.4.7"
+        },
+        "Thaumic Bees": {
+            "version": "1.4.3a",
+            "mcversion": "1.4.7"
+        },
+        "Thermal Expansion": {
+            "version": "2.2.2",
+            "mcversion": "1.4.7"
+        },
+        "Thirst": {
+            "version": "1.5.1",
+            "mcversion": "1.4.7"
+        },
+        "Too Many Items": {
+            "version": "1.4.7",
+            "mcversion": "1.4.7"
+        },
+        "Traincraft": {
+            "version": "Unknown",
+            "mcversion": "1.4.7"
+        },
+        "Transformers": {
+            "version": "1.7b (IC2)",
+            "mcversion": "1.4.7"
+        },
+        "Tropicraft": {
+            "version": "4.2.3",
+            "mcversion": "1.4.7"
+        },
+        "Tubestuff": {
+            "version": "52.1.3",
+            "mcversion": "1.4.7"
+        },
+        "Twilight Forest": {
+            "version": "1.15.3",
+            "mcversion": "1.4.7"
+        },
+        "Wireless Redstone CBE": {
+            "version": "1.3.2.2",
+            "mcversion": "1.4.7"
+        },
+        "Wireless Redstone Original": {
+            "version": "1.6.1",
+            "mcversion": "1.4.7"
+        },
+        "Xeno Reliquary": {
+            "version": "1.0.5",
+            "mcversion": "1.4.7"
+        },
+        "Xycraft": {
+            "version": "0.10.18",
+            "mcversion": "1.4.7"
+        },
+        "Zombie Awareness": {
+            "version": "1.8.1",
+            "mcversion": "1.4.7"
+        }
+    },
+    "modpacks": {
+        "FTB Ultimate": "http:\/\/soartex.net\/texture-patcher\/data\/modpacks\/ftbultimate.txt",
+        "FTB Magic World": "http:\/\/soartex.net\/texture-patcher\/data\/modpacks\/ftbmagic.txt",
+        "FTB Direwolf": "http:\/\/soartex.net\/texture-patcher\/data\/modpacks\/ftbdirewolf.txt",
+        "FTB Mindcrack": "http:\/\/soartex.net\/texture-patcher\/data\/modpacks\/ftbmindcrack.txt",
+        "FTB Tech World": "http:\/\/soartex.net\/texture-patcher\/data\/modpacks\/ftbtech.txt",
+        "FTB Lite": "http:\/\/soartex.net\/texture-patcher\/data\/modpacks\/ftblite.txt",
+        "Tekkit Lite": "http:\/\/soartex.net\/texture-patcher\/data\/modpacks\/tekkitlite.txt"
+    }
+}
