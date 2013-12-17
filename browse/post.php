@@ -23,7 +23,7 @@
         ksort($patcher_json["mods"]);
         // Output file
         $fp = fopen("../".$_SESSION['Config_Path'], 'w');
-        fwrite($fp, json_encode($patcher_json, JSON_PRETTY_PRINT));
+        fwrite($fp, json_encode($patcher_json));
         fclose($fp);
     }
     // Return error if needed

@@ -1,26 +1,22 @@
 {
     "Soartex 1.6.x": {
         "Config_Path": "data/patcher/config(1.6.x).json",
-        "Zip_Path": "modded-textures/modded_1.6.x/",
-        "Update_Path": "http://repo.soartex.net/deploy-1.6.x.php?sat=bf215181b5140522137b3d4f6b73544a",
-        "Version_Path": "modded-textures/modded_1.6.x/Z_VERSION.txt"
+        "Zip_Path": "http://repo.soartex.net/modded_1.6.x/",
+        "Version_Path": "http://repo.soartex.net/modded_1.6.x/Z_VERSION.txt"
     },
     "Soartex 1.5.x": {
         "Config_Path": "data/patcher/config(1.5.x).json",
-        "Zip_Path": "modded-textures/modded_1.5.x/",
-        "Update_Path": "http://repo.soartex.net/deploy-1.5.x.php?sat=bf215181b5140522137b3d4f6b73544a",
-        "Version_Path": "modded-textures/modded_1..x/Z_VERSION.txt"
+        "Zip_Path": "http://repo.soartex.net/modded_1.5.x/",
+        "Version_Path": "http://repo.soartex.net/modded_1.5.x/Z_VERSION.txt"
     },
     "Soartex 1.4.x": {
         "Config_Path": "data/patcher/config(1.4.x).json",
-        "Zip_Path": "modded-textures/modded_1.4.x/",
-        "Update_Path": "http://repo.soartex.net/deploy-1.4.x.php?sat=bf215181b5140522137b3d4f6b73544a",
-        "Version_Path": "modded-textures/modded_1.4.x/Z_VERSION.txt"
+        "Zip_Path": "http://repo.soartex.net/modded_1.4.x/",
+        "Version_Path": "http://repo.soartex.net/modded_1.4.x/Z_VERSION.txt"
     },
     "Soartex 1.3.x": {
-        "Config_Path": "data/patcher/config(1.3.x-pre).json",
-        "Zip_Path": "modded-textures/modded_1.3.x/",
-        "Update_Path": "http://repo.soartex.net/deploy-1.3.x.php?sat=bf215181b5140522137b3d4f6b73544a",
-        "Version_Path": "modded-textures/modded_1.3.x/Z_VERSION.txt"
+        "Config_Path": "data/patcher/config(1.3.x).json",
+        "Zip_Path": "http://repo.soartex.net/modded_1.3.x/",
+        "Version_Path": "http://repo.soartex.net/modded_1.3.x/Z_VERSION.txt"
     }
 }

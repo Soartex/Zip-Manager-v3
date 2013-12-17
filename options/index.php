@@ -59,12 +59,15 @@ if (!$_SESSION['logged']) {
         
       }
       // Update button
-      echo '<a type="button" class="btn btn-primary" href="'.$json[$profile]["Update_Path"].'"">Update</a><br>';
-      // Commit info
-      if(file_exists($json[$profile]["Version_Path"])){
-        $commit = file_get_contents($json[$profile]["Version_Path"]);
-      }
-      else {
+      //echo '<a type="button" class="btn btn-primary" href="'.$json[$profile]["Update_Path"].'"">Update</a><br>';
+      // Commit infos
+      $ctx = stream_context_create(array('http'=>
+        array(
+          'timeout' => 5
+        )
+      ));
+      $commit = file_get_contents($json[$profile]["Version_Path"], false, $ctx);
+      if(!$commit){
         $commit = "null";
       }
       echo '<div class="alert alert-info">';

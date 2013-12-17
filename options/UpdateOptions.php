@@ -6,7 +6,7 @@ if(isset($_POST['submit'])){
 	$json = json_decode($string, true);
 	// Update Session from json
 	$_SESSION['Config_Path']=$json[$_POST['preset']]["Config_Path"];
-	$_SESSION['Zip_Path']="../../".$json[$_POST['preset']]["Zip_Path"];
+	$_SESSION['Zip_Path']=$json[$_POST['preset']]["Zip_Path"];
 	//redirect
 	header("Location: ../browse/");
 	exit;

@@ -5,7 +5,6 @@
 			// If correct login your session
 			session_start();
 			$_SESSION['logged'] = TRUE;
-			echo "test";
 			// Redirect to the home pages
 			header("Location: ../options/");
 			exit;

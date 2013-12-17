@@ -46,7 +46,8 @@ if (!$_SESSION['logged']) {
     $patcher_json = json_decode($string, true);
     // Lets get the current directory
     $dirFiles = array();
-    // Opens zip directory
+
+    /* Opens zip directory
     if ($handle = opendir($_SESSION['Zip_Path'])) {
       while (false !== ($filename = readdir($handle))) {
         // Get all files that are not hidden folders
@@ -55,6 +56,15 @@ if (!$_SESSION['logged']) {
         }
       }
     }
+    */
+
+    // Get file listing
+    $contents = file_get_contents($_SESSION['Zip_Path']);
+    preg_match_All("|href=[\"'](.*?)[\"']|", $contents, $hrefs);
+    // Remove the "../"
+    unset($hrefs[1][0]);
+    // Convert to dirfiles
+    $dirFiles = $hrefs[1];
     // Sort the files alphabetically
     sort($dirFiles);
     // Create table to print the data out in
@@ -73,7 +83,9 @@ if (!$_SESSION['logged']) {
     foreach($dirFiles as &$zipName) {
       echo '<tr>';
       echo '<td>'.$zipName.'</td>';
-      echo '<td>'.date('m-d-Y H:i:s', filemtime($_SESSION['Zip_Path'].$zipName)).'</td>';
+      // Data modified, note to self: fix this!
+      echo '<td>Timeout Error <strong>D:</strong></td>';
+      //echo '<td>'.date('m-d-Y H:i:s', filemtime($_SESSION['Zip_Path'].$zipName)).'</td>';
       // Add spaces and remove ending
       $filename = preg_replace("/\\.[^.\\s]{3,4}$/", "", $zipName);
       $filename = str_replace('_', ' ', $filename);

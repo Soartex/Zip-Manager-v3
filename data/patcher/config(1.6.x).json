@@ -2,19 +2,27 @@
     "options": {
         "name": "Soartex Fanver 1.6.x",
         "url": "http:\/\/soartex.net\/",
-        "packurl": "http:\/\/files.soartex.net\/main\/Soartex_Fanver.zip",
-        "zipsurl": "http:\/\/files.soartex.net\/modded-textures\/modded_1.6.x\/",
-        "iconurl": "http:\/\/soartex.net\/texture-patcher\/data\/icon.png",
+        "packurl": "http:\/\/files.soartex.net\/vanilla\/1.6.x\/Soartex_Fanver.zip",
+        "zipsurl": "http:\/\/repo.soartex.net\/modded_1.6.x\/",
+        "iconurl": "http:\/\/repo.soartex.net\/zip-manager\/data\/patcher\/icon.png",
         "skin": "Nimbus"
     },
     "mods": {
+        "Additional Buildcraft Objects": {
+            "version": "1.0.6.182",
+            "mcversion": "1.6.x"
+        },
         "Advanced Solars": {
             "version": "3.3.9",
-            "mcversion": "1.6.2"
+            "mcversion": "1.6.x"
+        },
+        "Aether": {
+            "version": "Unknown",
+            "mcversion": "1.6.x"
         },
         "Applied Energistics": {
-            "version": "rv13-c",
-            "mcversion": "1.6.4"
+            "version": "rv14",
+            "mcversion": "1.6.x"
         },
         "Ars Magica": {
             "version": "1.0.2b",
@@ -28,9 +36,17 @@
             "version": "2.3",
             "mcversion": "1.6.2"
         },
+        "BetterStorage": {
+            "version": "0.7.3.38",
+            "mcversion": "1.6.x"
+        },
         "BiblioCraft": {
-            "version": "1.4.0",
-            "mcversion": "1.6.2"
+            "version": "1.5.3",
+            "mcversion": "1.6.x"
+        },
+        "Billund": {
+            "version": "1.01",
+            "mcversion": "1.6.x"
         },
         "Binnies Mods": {
             "version": "1.8-dev1",
@@ -45,11 +61,15 @@
             "mcversion": "1.6.4"
         },
         "Buildcraft": {
-            "version": "4.0.1",
-            "mcversion": "1.6.2"
+            "version": "4.1.2",
+            "mcversion": "1.6.x"
         },
         "Carpenters Blocks": {
             "version": "v1.9.5",
+            "mcversion": "1.6.x"
+        },
+        "Charge Pads": {
+            "version": "Unknown",
             "mcversion": "1.6.x"
         },
         "Chicken Chunks": {
@@ -76,9 +96,17 @@
             "version": "Unknown",
             "mcversion": "1.6.x"
         },
+        "Dimensional Anchors": {
+            "version": "Unknown",
+            "mcversion": "1.6.x"
+        },
         "Divine RPG": {
             "version": "Beta",
             "mcversion": "1.6.2"
+        },
+        "Dye Trees": {
+            "version": "1.6v7",
+            "mcversion": "1.6.x"
         },
         "Ender IO": {
             "version": "0.4.2",
@@ -108,13 +136,25 @@
             "version": "2.3.0.6",
             "mcversion": "1.6.4"
         },
+        "GeoStrata": {
+            "version": "1.6v7",
+            "mcversion": "1.6.x"
+        },
         "Gravity Suite": {
             "version": "1.9.6",
             "mcversion": "1.6.2"
         },
+        "Greg's Lighting": {
+            "version": "Unknown",
+            "mcversion": "1.6.x"
+        },
         "GregTech": {
             "version": "4.04",
             "mcversion": "1.6.2"
+        },
+        "Iguana Tweaks TC": {
+            "version": "Unknown",
+            "mcversion": "1.6.x"
         },
         "IndustrialCraft 2": {
             "version": "2.0.298",
@@ -132,6 +172,10 @@
             "version": "4.5",
             "mcversion": "1.6.4"
         },
+        "Logistics Pipes": {
+            "mcversion": "1.6.x",
+            "version": "Unknown"
+        },
         "Magic Bees": {
             "version": "2.1.4 dev",
             "mcversion": "1.6.2"
@@ -144,17 +188,33 @@
             "version": "Unknown",
             "mcversion": "1.6.x"
         },
+        "Minefactory Reloaded": {
+            "mcversion": "1.6.x",
+            "version": "Unknown"
+        },
         "Misc Peripherals": {
             "version": "3.4b2",
             "mcversion": "1.6.2"
+        },
+        "Mo Creatures": {
+            "mcversion": "1.6.x",
+            "version": "Unknown"
         },
         "More Furnaces": {
             "version": "Unknown",
             "mcversion": "1.6.x"
         },
+        "More Health": {
+            "mcversion": "1.6.x",
+            "version": "Unknown"
+        },
+        "More Pistons": {
+            "version": "1.4.1",
+            "mcversion": "1.6.x"
+        },
         "Morph": {
             "version": "0.3.0",
-            "mcversion": "1.6.4"
+            "mcversion": "1.6.x"
         },
         "Multipart": {
             "version": "1.0.0.212",
@@ -176,16 +236,24 @@
             "version": "Unknown",
             "mcversion": "1.6.x"
         },
-        "OpenPeripheral": {
-            "version": "Unknown",
+        "OpenBlocks": {
+            "version": "v1.2.2",
             "mcversion": "1.6.x"
+        },
+        "OpenPeripheral": {
+            "version": "0.2.0-beta",
+            "mcversion": "1.6.x"
+        },
+        "Peacefulpack": {
+            "mcversion": "1.6.x",
+            "version": "1.1.6.4"
         },
         "Pet Bat": {
             "version": "Unknown",
             "mcversion": "1.6.x"
         },
         "Portal Gun": {
-            "version": "Unknown",
+            "version": "2.0.1",
             "mcversion": "1.6.x"
         },
         "Project Red": {
@@ -196,6 +264,10 @@
             "version": "8.2.0.0",
             "mcversion": "1.6.4"
         },
+        "Simple Ores 2": {
+            "mcversion": "1.6.x",
+            "version": "Unknown"
+        },
         "Soul Shards": {
             "version": "1.0.39",
             "mcversion": "1.6.2"
@@ -204,20 +276,44 @@
             "version": "Alpha 132",
             "mcversion": "1.6.2"
         },
+        "Templates": {
+            "mcversion": "n\/a",
+            "version": "n\/a"
+        },
         "Thaumcraft 4": {
             "version": "4.0.1",
+            "mcversion": "1.6.4"
+        },
+        "Thaumic Tinkerer": {
+            "version": "Unknown",
+            "mcversion": "1.6.x"
+        },
+        "Thermal Expansion": {
+            "version": "3.0.0.b8",
             "mcversion": "1.6.4"
         },
         "Tinker Construct": {
             "version": "1.4.5.1",
             "mcversion": "1.6.2"
         },
+        "Tinker Mechworks": {
+            "version": "0.1.2",
+            "mcversion": "1.6.4"
+        },
+        "Too Many Items": {
+            "version": "2013.09.20",
+            "mcversion": "1.6.4"
+        },
+        "Tubestuff": {
+            "version": "57.0.2",
+            "mcversion": "1.6.4"
+        },
         "Twilight Forest": {
             "version": "1.19.0",
             "mcversion": "1.6.2"
         },
         "Underground Biomes": {
-            "version": "Unknown",
+            "version": "0.4.2c",
             "mcversion": "1.6.x"
         },
         "Wireless Redstone CBE": {

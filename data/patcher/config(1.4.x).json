@@ -2,9 +2,9 @@
     "options": {
         "name": "Soartex Fanver 1.4.x",
         "url": "http:\/\/soartex.net\/",
-        "packurl": "http:\/\/files.soartex.net\/archives\/MC%201.4.x\/Soartex_Fanver.zip",
-        "zipsurl": "http://files.soartex.net/modded-textures/modded_1.4.x/",
-        "iconurl": "http:\/\/soartex.net\/texture-patcher\/data\/icon.png",
+        "packurl": "http://files.soartex.net/vanilla/1.4.x/Soartex_Fanver.zip",
+        "zipsurl": "http://repo.soartex.net/modded_1.4.x/",
+        "iconurl": "http://repo.soartex.net/zip-manager/data/patcher/icon.png",
         "skin": "Nimbus"
     },
     "mods": {
@@ -299,6 +299,10 @@
         "Transformers": {
             "version": "1.7b (IC2)",
             "mcversion": "1.4.7"
+        },
+        "TropiCraft": {
+            "version": "Unknown",
+            "mcversion": "1.4.x"
         },
         "Tropicraft": {
             "version": "4.2.3",
