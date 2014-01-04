@@ -72,7 +72,6 @@ if (!$_SESSION['logged']) {
     echo '<thead>';
     echo '<tr>';
     echo '<th>File Name</th>';
-    echo '<th>Date Modified</th>';
     echo '<th>Mod Version</th>';
     echo '<th>MC Version</th>';
     echo '<th>Options</th>';
@@ -81,11 +80,19 @@ if (!$_SESSION['logged']) {
     // Main body
     echo '<tbody>';
     foreach($dirFiles as &$zipName) {
+      // Check for version file
+      if ($zipName === 'version.txt')
+        continue;
+      // Decode url
+      $zipName = rawurldecode($zipName);
+      // Start table
       echo '<tr>';
       echo '<td>'.$zipName.'</td>';
-      // Data modified, note to self: fix this!
-      echo '<td>Timeout Error <strong>D:</strong></td>';
-      //echo '<td>'.date('m-d-Y H:i:s', filemtime($_SESSION['Zip_Path'].$zipName)).'</td>';
+
+      // Data modified
+      // echo '<td>Timeout Error <strong>D:</strong></td>';
+      // echo '<td>'.date('m-d-Y H:i:s', filemtime($_SESSION['Zip_Path'].$zipName)).'</td>';
+
       // Add spaces and remove ending
       $filename = preg_replace("/\\.[^.\\s]{3,4}$/", "", $zipName);
       $filename = str_replace('_', ' ', $filename);
@@ -120,10 +127,7 @@ if (!$_SESSION['logged']) {
       // Edit buttons
       echo 
       '<td>
-      <div class="btn-group">
         <a class="btn btn-primary btn-xs" href="'.$_SESSION['Zip_Path'].$zipName.'">Download</a>
-        <a class="btn btn-danger btn-xs" href="./deletezip.php?fileName='.$zipName.'" disabled >Delete</a>
-      </div>
       </td>';
       echo '</tr>';
     }// End of foreach
