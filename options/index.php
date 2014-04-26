@@ -33,6 +33,7 @@ if (!$_SESSION['logged']) {
     // Get option information
     $string = file_get_contents("../data/options.json");
     $json = json_decode($string, true);
+    $json = $json[$_SESSION['User_ID']];
     // Get the keys/presets
     $preset_array = array_keys($json);
 

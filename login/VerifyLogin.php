@@ -5,6 +5,7 @@
 			// If correct login your session
 			session_start();
 			$_SESSION['logged'] = TRUE;
+			$_SESSION['User_ID'] = $_POST['username'];
 			// Redirect to the home pages
 			header("Location: ../options/");
 			exit;

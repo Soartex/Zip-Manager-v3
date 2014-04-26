@@ -1,0 +1,16 @@
+{
+    "branches": {
+        "1.6.x Branch": {
+            "name": "1.6.x mods",
+            "url": "http://localhost:4000/data/patcher/jstr/config(1.6.x).json"
+        },
+        "1.5.x Branch": {
+            "name": "1.5.x mods",
+            "url": "http://localhost:4000/data/patcher/jstr/config(1.5.x).json"
+        },
+        "1.4.x Branch": {
+            "name": "1.4.x mods",
+            "url": "http://localhost:4000/data/patcher/jstr/config(1.4.x).json"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "branches": {
+        "1.7.x Branch": {
+            "name": "1.7.x mods",
+            "url": "http://soartex.net/zip-manager/data/patcher/fyd/config(1.7.x).json"
+        },
+        "1.6.x Branch": {
+            "name": "1.6.x mods",
+            "url": "http://soartex.net/zip-manager/data/patcher/fyd/config(1.6.x).json"
+        }
+    }
+}
