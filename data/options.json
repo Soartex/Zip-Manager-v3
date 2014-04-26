@@ -1,5 +1,5 @@
 {
-  "soartexFanver": {
+  "Soartex": {
     "Soartex 1.6.x": {
       "Config_Path": "data/patcher/soartex/config(1.6.x).json",
       "Repo_Path": "https://api.github.com/repos/Soartex-Modded/Modded-1.6.x/git/trees/master?recursive=1",
@@ -25,7 +25,7 @@
       "Version_Path": "http://new.creeperrepo.net/Soartex/automated/modded1.3.x/version.txt"
     }
   },
-  "Morton": {
+  "FYD": {
     "FyD 1.7.x": {
       "Config_Path": "data/patcher/users/fyd/config(1.7.x).json",
       "Repo_Path": "https://api.github.com/repos/Familiar-yet-Different/FyD-Modded-1.7.x/git/trees/master?recursive=1",
@@ -39,7 +39,7 @@
       "Version_Path": "http://utility.soartex.net/manager/data/temp/modded1.6.x/version.txt"
     }
   },
-  "jstrTeam": {
+  "JSTR": {
     "JSTR 1.6.x": {
       "Config_Path": "data/patcher/jstr/config(1.6.x).json",
       "Repo_Path": "https://api.github.com/repos/John-Smith-Modded/JSTR-1.6.x/git/trees/master?recursive=1",
