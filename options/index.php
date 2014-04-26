@@ -78,8 +78,15 @@ if (!$_SESSION['logged']) {
       }
       echo '</div>';
     }
+    // Get api rate info
+    ini_set('user_agent','Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17');
+    $string = file_get_contents("https://api.github.com/rate_limit");
+    $json = json_decode($string, true);
+
+    // Submit Button
     echo '<br>';
-    echo '<button type="submit" name="submit" class="btn btn-success">Submit</button>';
+    echo '<div class="label label-danger" style="padding:10px;font-size:120%;">Requests Left: '.$json['resources']['core']['remaining'].'</div>';
+    echo '<button style="margin-left:20px; type="submit" name="submit" class="btn btn-success">Submit</button>';
     echo '</form>';    
     ?>
     <!-- Footer -->
