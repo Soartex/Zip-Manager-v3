@@ -1,1 +1,107 @@
-{"options":{"name":"Familiar yet Different","url":"http:\/\/soartex.net\/","packurl":"","zipsurl":"http:\/\/utility.soartex.net\/manager\/data\/temp\/modded1.7.x\/","iconurl":"http:\/\/dries007.net\/morton\/FyD\/Texture_Patcher\/pack.png","skin":"native"},"mods":{"Advanced Machines":{"mcversion":"1.7.x"},"Applied Energistics 2":{"mcversion":"1.7.x","version":"rv0 alpha 95"},"Biblio Craft":{"mcversion":"1.7.x","version":"1.6.3"},"Biomes O Plenty":{"mcversion":"1.7.x","version":"2.0.0.762"},"Botania":{"mcversion":"1.7.x","version":"beta 21"},"BuildCraft":{"mcversion":"1.7.x","version":"6.0.6"},"Carpenters Blocks":{"mcversion":"1.7.x"},"Chisel":{"mcversion":"1.7.x","version":"1.5.3"},"Compact Solars":{"mcversion":"1.7.x","version":"4.4.28.310"},"Compact Windmills":{"mcversion":"1.7.x","version":"1.0.3.1"},"Ender IO":{"mcversion":"1.7.x","version":"1.1.0 alpha.30"},"Extra Cells":{"mcversion":"1.7.x","version":"2.0.0"},"Forestry":{"mcversion":"1.7.x","version":"2.4.0.0-711"},"Forge Multipart":{"mcversion":"1.7.x","version":"1.1.0.268"},"IndustrialCraft 2":{"mcversion":"1.7.x","version":"2.1.465"},"Iron Chest":{"mcversion":"1.7.x","version":"6.0.14.719"},"Mariculture":{"mcversion":"1.7.x","version":"b2"},"Not Enough Items":{"mcversion":"1.7.x","version":"rc2"},"Open Computers":{"mcversion":"1.7.x","version":"1.2.7.128"},"Pneumatic Craft":{"mcversion":"1.7.x","version":"1.1.6"},"Thaumcraft 4":{"mcversion":"1.7.x","version":"4.1.1.10"},"Tinkers Construct":{"mcversion":"1.7.x","version":"1.6.0.a12"},"Twilight Forest":{"mcversion":"1.7.x","version":"2.0.3"},"Underground Biomes":{"mcversion":"1.7.x","version":"0.5g"}},"modpacks":[]}
+{
+  "options": {
+    "name": "Familiar yet Different",
+    "url": "http://soartex.net/",
+    "packurl": "",
+    "zipsurl": "http://utility.soartex.net/manager/data/temp/modded1.7.x/",
+    "iconurl": "http://dries007.net/morton/FyD/Texture_Patcher/pack.png",
+    "skin": "native"
+  },
+  "mods": {
+    "Advanced Machines": {
+      "mcversion": "1.7.x"
+    },
+    "Applied Energistics 2": {
+      "mcversion": "1.7.x",
+      "version": "rv0 alpha 95"
+    },
+    "Biblio Craft": {
+      "mcversion": "1.7.x",
+      "version": "1.6.3"
+    },
+    "Biomes O Plenty": {
+      "mcversion": "1.7.x",
+      "version": "2.0.0.762"
+    },
+    "Botania": {
+      "mcversion": "1.7.x",
+      "version": "beta 21"
+    },
+    "BuildCraft": {
+      "mcversion": "1.7.x",
+      "version": "6.0.6"
+    },
+    "Carpenters Blocks": {
+      "mcversion": "1.7.x"
+    },
+    "Chisel": {
+      "mcversion": "1.7.x",
+      "version": "1.5.3"
+    },
+    "Compact Solars": {
+      "mcversion": "1.7.x",
+      "version": "4.4.28.310"
+    },
+    "Compact Windmills": {
+      "mcversion": "1.7.x",
+      "version": "1.0.3.1"
+    },
+    "Ender IO": {
+      "mcversion": "1.7.x",
+      "version": "1.1.0 alpha.30"
+    },
+    "Extra Cells": {
+      "mcversion": "1.7.x",
+      "version": "2.0.0"
+    },
+    "Forestry": {
+      "mcversion": "1.7.x",
+      "version": "2.4.0.0-711"
+    },
+    "Forge Multipart": {
+      "mcversion": "1.7.x",
+      "version": "1.1.0.268"
+    },
+    "IndustrialCraft 2": {
+      "mcversion": "1.7.x",
+      "version": "2.1.465"
+    },
+    "Iron Chest": {
+      "mcversion": "1.7.x",
+      "version": "6.0.14.719"
+    },
+    "Mariculture": {
+      "mcversion": "1.7.x",
+      "version": "b2"
+    },
+    "Not Enough Items": {
+      "mcversion": "1.7.x",
+      "version": "rc2"
+    },
+    "Open Computers": {
+      "mcversion": "1.7.x",
+      "version": "1.2.7.128"
+    },
+    "Pneumatic Craft": {
+      "mcversion": "1.7.x",
+      "version": "1.1.6"
+    },
+    "Thaumcraft 4": {
+      "mcversion": "1.7.x",
+      "version": "4.1.1.10"
+    },
+    "Tinkers Construct": {
+      "mcversion": "1.7.x",
+      "version": "1.6.0.a12"
+    },
+    "Twilight Forest": {
+      "mcversion": "1.7.x",
+      "version": "2.0.3"
+    },
+    "Underground Biomes": {
+      "mcversion": "1.7.x",
+      "version": "0.5g"
+    }
+  },
+  "modpacks": []
+}
