@@ -25,14 +25,16 @@
       "Version_Path": "http://new.creeperrepo.net/Soartex/automated/modded1.3.x/version.txt"
     }
   },
-  "morton": {
+  "Morton": {
     "FyD 1.7.x": {
       "Config_Path": "data/patcher/users/fyd/config(1.7.x).json",
+      "Repo_Path": "https://api.github.com/repos/Familiar-yet-Different/FyD-Modded-1.7.x/git/trees/master?recursive=1",
       "Zip_Path": "http://utility.soartex.net/manager/data/temp/modded1.7.x/",
       "Version_Path": "http://utility.soartex.net/manager/data/temp/modded1.7.x/version.txt"
     },
     "FyD 1.6.x": {
       "Config_Path": "data/patcher/users/fyd/config(1.6.x).json",
+      "Repo_Path": "https://api.github.com/repos/Familiar-yet-Different/FyD-Modded-1.6.x/git/trees/master?recursive=1",
       "Zip_Path": "http://utility.soartex.net/manager/data/temp/modded1.6.x/",
       "Version_Path": "http://utility.soartex.net/manager/data/temp/modded1.6.x/version.txt"
     }

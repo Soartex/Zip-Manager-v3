@@ -1,1 +1,139 @@
-{"options":{"name":"JSTR 1.5.x","url":"John-Smith-Modded.github.io","packurl":"","zipsurl":"https:\/\/John-Smith-Modded.github.io\/JSTR-1.5.x\/","iconurl":"http:\/\/localhost:4000\/data\/patcher\/jstr\/icon.png","skin":"Nimbus"},"mods":{"Advanced Machines":{"mcversion":"1.5.x"},"Advanced Solar Panels":{"mcversion":"1.5.x"},"Applied Energistics":{"mcversion":"1.5.x"},"Bibliocraft":{"mcversion":"1.5.x"},"Biomes O Plenty":{"mcversion":"1.5.x"},"Buildcraft":{"mcversion":"1.5.x"},"ChickenChunks":{"mcversion":"1.5.x"},"Compact Solar Arrays":{"mcversion":"1.5.x"},"ComputerCraft":{"mcversion":"1.5.x"},"DenPipes":{"mcversion":"1.5.x"},"EnderStorage":{"mcversion":"1.5.x"},"Extra Biomes XL":{"mcversion":"1.5.x"},"ExtraBees":{"mcversion":"1.5.x"},"Factorization":{"mcversion":"1.5.x"},"Forestry":{"mcversion":"1.5.x"},"Gravisuite":{"mcversion":"1.5.x"},"GregTech":{"mcversion":"1.5.x"},"Industrial Craft 2":{"mcversion":"1.5.x"},"Iron Chests":{"mcversion":"1.5.x"},"Logistics Pipes Unofficial":{"mcversion":"1.5.x"},"Magic Bees":{"mcversion":"1.5.x"},"Minefactory Reloaded":{"mcversion":"1.5.x"},"Modular Forcefields (MFFS)":{"mcversion":"1.5.x"},"Mystcraft":{"mcversion":"1.5.x"},"Nether Ores":{"mcversion":"1.5.x"},"Not Enough Items (NEI)":{"mcversion":"1.5.x"},"Plugins For Forestry":{"mcversion":"1.5.x"},"PortalGun":{"mcversion":"1.5.x"},"Powerconverters":{"mcversion":"1.5.x"},"Railcraft":{"mcversion":"1.5.x"},"Soul Shards":{"mcversion":"1.5.x"},"Steves Carts":{"mcversion":"1.5.x"},"Thaumcraft 3":{"mcversion":"1.5.x"},"Thermal Expansion 2":{"mcversion":"1.5.x"},"Tinkers Construct":{"mcversion":"1.5.x"},"TubeStuff":{"mcversion":"1.5.x"},"Twilight Forest":{"mcversion":"1.5.x"},"Underground Biomes":{"mcversion":"1.5.x"},"Wireless Redstone CBE":{"mcversion":"1.5.x"}},"modpacks":{"FTB Beta A":"http:\/\/soartex.net\/texture-patcher\/data\/modpacks\/ftbbetaa.txt","FTB Ultimate":"http:\/\/soartex.net\/texture-patcher\/data\/modpacks\/ftbultimate.txt","FTB Magic World":"http:\/\/soartex.net\/texture-patcher\/data\/modpacks\/ftbmagic.txt","FTB Direwolf":"http:\/\/soartex.net\/texture-patcher\/data\/modpacks\/ftbdirewolf.txt","FTB Mindcrack":"http:\/\/soartex.net\/texture-patcher\/data\/modpacks\/ftbmindcrack.txt","FTB Tech World":"http:\/\/soartex.net\/texture-patcher\/data\/modpacks\/ftbtech.txt","FTB Lite":"http:\/\/soartex.net\/texture-patcher\/data\/modpacks\/ftblite.txt","Tekkit Lite":"http:\/\/soartex.net\/texture-patcher\/data\/modpacks\/tekkitlite.txt"}}
+{
+  "options": {
+    "name": "JSTR 1.5.x",
+    "url": "John-Smith-Modded.github.io",
+    "packurl": "",
+    "zipsurl": "https://John-Smith-Modded.github.io/JSTR-1.5.x/",
+    "iconurl": "http://soartex.net/zip-manager/data/patcher/jstr/icon.png",
+    "skin": "Nimbus"
+  },
+  "mods": {
+    "Advanced Machines": {
+      "mcversion": "1.5.x"
+    },
+    "Advanced Solar Panels": {
+      "mcversion": "1.5.x"
+    },
+    "Applied Energistics": {
+      "mcversion": "1.5.x"
+    },
+    "Bibliocraft": {
+      "mcversion": "1.5.x"
+    },
+    "Biomes O Plenty": {
+      "mcversion": "1.5.x"
+    },
+    "Buildcraft": {
+      "mcversion": "1.5.x"
+    },
+    "ChickenChunks": {
+      "mcversion": "1.5.x"
+    },
+    "Compact Solar Arrays": {
+      "mcversion": "1.5.x"
+    },
+    "ComputerCraft": {
+      "mcversion": "1.5.x"
+    },
+    "DenPipes": {
+      "mcversion": "1.5.x"
+    },
+    "EnderStorage": {
+      "mcversion": "1.5.x"
+    },
+    "Extra Biomes XL": {
+      "mcversion": "1.5.x"
+    },
+    "ExtraBees": {
+      "mcversion": "1.5.x"
+    },
+    "Factorization": {
+      "mcversion": "1.5.x"
+    },
+    "Forestry": {
+      "mcversion": "1.5.x"
+    },
+    "Gravisuite": {
+      "mcversion": "1.5.x"
+    },
+    "GregTech": {
+      "mcversion": "1.5.x"
+    },
+    "Industrial Craft 2": {
+      "mcversion": "1.5.x"
+    },
+    "Iron Chests": {
+      "mcversion": "1.5.x"
+    },
+    "Logistics Pipes Unofficial": {
+      "mcversion": "1.5.x"
+    },
+    "Magic Bees": {
+      "mcversion": "1.5.x"
+    },
+    "Minefactory Reloaded": {
+      "mcversion": "1.5.x"
+    },
+    "Modular Forcefields (MFFS)": {
+      "mcversion": "1.5.x"
+    },
+    "Mystcraft": {
+      "mcversion": "1.5.x"
+    },
+    "Nether Ores": {
+      "mcversion": "1.5.x"
+    },
+    "Not Enough Items (NEI)": {
+      "mcversion": "1.5.x"
+    },
+    "Plugins For Forestry": {
+      "mcversion": "1.5.x"
+    },
+    "PortalGun": {
+      "mcversion": "1.5.x"
+    },
+    "Powerconverters": {
+      "mcversion": "1.5.x"
+    },
+    "Railcraft": {
+      "mcversion": "1.5.x"
+    },
+    "Soul Shards": {
+      "mcversion": "1.5.x"
+    },
+    "Steves Carts": {
+      "mcversion": "1.5.x"
+    },
+    "Thaumcraft 3": {
+      "mcversion": "1.5.x"
+    },
+    "Thermal Expansion 2": {
+      "mcversion": "1.5.x"
+    },
+    "Tinkers Construct": {
+      "mcversion": "1.5.x"
+    },
+    "TubeStuff": {
+      "mcversion": "1.5.x"
+    },
+    "Twilight Forest": {
+      "mcversion": "1.5.x"
+    },
+    "Underground Biomes": {
+      "mcversion": "1.5.x"
+    },
+    "Wireless Redstone CBE": {
+      "mcversion": "1.5.x"
+    }
+  },
+  "modpacks": {
+    "FTB Beta A": "http://soartex.net/texture-patcher/data/modpacks/ftbbetaa.txt",
+    "FTB Ultimate": "http://soartex.net/texture-patcher/data/modpacks/ftbultimate.txt",
+    "FTB Magic World": "http://soartex.net/texture-patcher/data/modpacks/ftbmagic.txt",
+    "FTB Direwolf": "http://soartex.net/texture-patcher/data/modpacks/ftbdirewolf.txt",
+    "FTB Mindcrack": "http://soartex.net/texture-patcher/data/modpacks/ftbmindcrack.txt",
+    "FTB Tech World": "http://soartex.net/texture-patcher/data/modpacks/ftbtech.txt",
+    "FTB Lite": "http://soartex.net/texture-patcher/data/modpacks/ftblite.txt",
+    "Tekkit Lite": "http://soartex.net/texture-patcher/data/modpacks/tekkitlite.txt"
+  }
+}
