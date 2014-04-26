@@ -2,9 +2,9 @@
     "options": {
         "name": "Soartex Fanver 1.3.x-pre",
         "url": "http:\/\/soartex.net\/",
-        "packurl": "http://files.soartex.net/vanilla/1.3.x/Soartex_Fanver.zip",
-        "zipsurl": "http://repo.soartex.net/modded_1.3.x/",
-        "iconurl": "http://repo.soartex.net/zip-manager/data/patcher/icon.png",
+        "packurl": "http://new.creeperrepo.net/Soartex/vanilla/1.3.x/Soartex_Fanver.zip",
+        "zipsurl": "http://new.creeperrepo.net/Soartex/automated/modded1.3.x/",
+        "iconurl": "http://soartex.net/zip-manager/data/icon.png",
         "skin": "Nimbus"
     },
     "mods": {
