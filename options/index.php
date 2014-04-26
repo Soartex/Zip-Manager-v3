@@ -66,10 +66,13 @@ if (!$_SESSION['logged']) {
           'timeout' => 5
         )
       ));
-      $commit = file_get_contents($json[$profile]["Version_Path"], false, $ctx);
-      $commit = explode("\n", $commit);
+      // If we have a version path, get it
+      if($json[$profile]["Version_Path"]){
+        $commit = file_get_contents($json[$profile]["Version_Path"], false, $ctx);
+        $commit = explode("\n", $commit);
+      }
       if(!$commit){
-        $commit = "null";
+        $commit = array("null");
       }
       echo '<div class="alert alert-info">';
       echo "Latest Commits:<br>";
