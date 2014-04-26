@@ -37,36 +37,22 @@ if (!$_SESSION['logged']) {
       <br>
       <?php
       echo "[Patcher Config]: ".$_SESSION['Config_Path']."<br>";
-      echo "[Local Zip Directory]: ".$_SESSION['Zip_Path']."<br>";
+      echo "[Zip Url]: ".$_SESSION['Zip_Path']."<br>";
+      echo "[Repo Url]: ".$_SESSION['Repo_Path']."<br>";
       ?>
     </div>
     <?php
-    // Patcher config
+    // Patcher config get
+    ini_set('user_agent','Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.56 Safari/537.17');
     $string = file_get_contents("../".$_SESSION['Config_Path']);
     $patcher_json = json_decode($string, true);
-    // Lets get the current directory
+
+    // Lets get the mod folders
     $dirFiles = array();
+    // Request info
+    $contents = file_get_contents($_SESSION['Repo_Path'], false);
+    $json_data = json_decode($contents);
 
-    /* Opens zip directory
-    if ($handle = opendir($_SESSION['Zip_Path'])) {
-      while (false !== ($filename = readdir($handle))) {
-        // Get all files that are not hidden folders
-        if (substr($filename, 0, 1) !== '.'){
-          $dirFiles[]=$filename;
-        }
-      }
-    }
-    */
-
-    // Get file listing
-    $contents = file_get_contents($_SESSION['Zip_Path']);
-    preg_match_All("|href=[\"'](.*?)[\"']|", $contents, $hrefs);
-    // Remove the "../"
-    unset($hrefs[1][0]);
-    // Convert to dirfiles
-    $dirFiles = $hrefs[1];
-    // Sort the files alphabetically
-    sort($dirFiles);
     // Create table to print the data out in
     echo '<table class="table table-hover table-bordered" id="table">';
     echo '<thead>';
@@ -79,58 +65,59 @@ if (!$_SESSION['logged']) {
     echo '</thead>';
     // Main body
     echo '<tbody>';
-    foreach($dirFiles as &$zipName) {
-      // Check for version file
-      if ($zipName === 'version.txt')
-        continue;
-      // Decode url
-      $zipName = rawurldecode($zipName);
-      // Start table
-      echo '<tr>';
-      echo '<td>'.$zipName.'</td>';
+    if($json_data) {
+      foreach($json_data->{'tree'} as &$j_object) {
+        // Check if this is a folder
+        if ($j_object->{'type'} === 'blob')
+          continue;
+        // Check if this is a top level folder
+        if (strpos($j_object->{'path'}, '/') !== FALSE)
+          continue;
 
-      // Data modified
-      // echo '<td>Timeout Error <strong>D:</strong></td>';
-      // echo '<td>'.date('m-d-Y H:i:s', filemtime($_SESSION['Zip_Path'].$zipName)).'</td>';
+        // Start table
+        echo '<tr>';
+        echo '<td>'.$j_object->{'path'}.'.zip</td>';
 
-      // Add spaces and remove ending
-      $filename = preg_replace("/\\.[^.\\s]{3,4}$/", "", $zipName);
-      $filename = str_replace('_', ' ', $filename);
-      // See if there is a version in the mod.json
-      if (isset($patcher_json["mods"][$filename]["version"])) {
+        // Add spaces and remove ending
+        $filename = preg_replace("/\\.[^.\\s]{3,4}$/", "", $j_object->{'path'});
+        $filename = str_replace('_', ' ', $filename);
+
+        // See if there is a version in the mod.json
+        if (isset($patcher_json["mods"][$filename]["version"])) {
+          echo 
+          '<td>
+          <a href="#" class="editable" id="version" data-type="text" data-pk="'.$filename.'" title="Edit Mod">'.$patcher_json["mods"][$filename]["version"].'</a>
+          </td>';
+        } 
+        // If there is no info, then say it is empty
+        else {
+          echo 
+          '<td>
+          <a href="#" class="editable" id="version" data-type="text" data-pk="'.$filename.'" title="Edit Mod"></a>
+          </td>';
+        }
+        // See if there is a MC version in the mod.json
+        if (isset($patcher_json["mods"][$filename]["mcversion"])) {
+          echo 
+          '<td>
+          <a href="#" class="editable" id="mcversion" data-type="text" data-pk="'.$filename.'" title="Edit MC">'.$patcher_json["mods"][$filename]["mcversion"].'</a>
+          </td>';
+        } 
+        // If there is no info, then say it is empty
+        else {
+          echo 
+          '<td>
+          <a href="#" class="editable" id="mcversion" data-type="text" data-pk="'.$filename.'" title="Edit MC"></a>
+          </td>';
+        }
+        // Edit buttons
         echo 
         '<td>
-        <a href="#" class="editable" id="version" data-type="text" data-pk="'.$filename.'" title="Edit Mod">'.$patcher_json["mods"][$filename]["version"].'</a>
+          <a class="btn btn-primary btn-xs" href="'.$_SESSION['Zip_Path'].$j_object->{'path'}.'.zip">Download</a>
         </td>';
-      } 
-      // If there is no info, then say it is empty
-      else {
-        echo 
-        '<td>
-        <a href="#" class="editable" id="version" data-type="text" data-pk="'.$filename.'" title="Edit Mod"></a>
-        </td>';
-      }
-      // See if there is a MC version in the mod.json
-      if (isset($patcher_json["mods"][$filename]["mcversion"])) {
-        echo 
-        '<td>
-        <a href="#" class="editable" id="mcversion" data-type="text" data-pk="'.$filename.'" title="Edit MC">'.$patcher_json["mods"][$filename]["mcversion"].'</a>
-        </td>';
-      } 
-      // If there is no info, then say it is empty
-      else {
-        echo 
-        '<td>
-        <a href="#" class="editable" id="mcversion" data-type="text" data-pk="'.$filename.'" title="Edit MC"></a>
-        </td>';
-      }
-      // Edit buttons
-      echo 
-      '<td>
-        <a class="btn btn-primary btn-xs" href="'.$_SESSION['Zip_Path'].$zipName.'">Download</a>
-      </td>';
-      echo '</tr>';
-    }// End of foreach
+        echo '</tr>';
+      }// End of foreach
+    }// End of if
     echo '</tbody>';
     echo '</table>';
     ?>
